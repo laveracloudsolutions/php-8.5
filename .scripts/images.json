@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "folder": "php-8.5",
+      "image_tag": "php:8.5-apache-trixie",
+      "image_additionnal_tag": "php:8.5",
+      "platforms": "linux/amd64,linux/arm64/v8"
+    },
+    {
+      "folder": "php-runner-8.5",
+      "image_tag": "php-runner:8.5-apache-trixie",
+      "image_additionnal_tag": "php-runner:8.5-01",
+      "platforms": "linux/amd64,linux/arm64/v8"
+    },
+    {
+      "folder": "php-tools-8.5",
+      "image_tag": "php-tools:8.5-apache-trixie",
+      "image_additionnal_tag": "php-tools:8.5-01",
+      "platforms": "linux/amd64,linux/arm64/v8"
+    }
+  ]
+}
